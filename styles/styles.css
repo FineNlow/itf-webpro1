@@ -1,65 +1,95 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
 }
 
 header {
+    width: 100%;
+    background-color: black;
     color: white;
-    padding: 1vw;
+    padding: 3vh;
+    text-align: center;
 }
 
-.nav-bar {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("");
+    justify-content: center;
 }
 
-.nav-bar-item {
-    padding: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    background-color: brown;
+nav ul li {
+    margin: 0 15px;
 }
 
-.nav-bar-item p {
+nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 2rem;
 }
 
-.body-main-profile {
-    background-color: #333;
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: burlywood;
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
     display: flex;
-    align-items: left;
-    height: 100vh;
-    width: 22vw;
-    padding: 5vw;
-    margin: 1vw;
-    border-radius: 4%;
-}
-
-.profile-header img {
-    width: 11vw;
-    height: 20vh;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-right: 18vw;
-}
-
-.profile-header {
-    width: 30vw;
-    height: 13vh;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
 }
 
-.profile-body {
-    margin-top: 2vh;
+.container b {
+    color: royalblue;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cta-button a {
+    text-decoration: none;
     color: white;
 }
 
+.cta-button:hover {
+    background-color: #555;
+}
 
+footer {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 20vh;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.section, .footer-container {
+    padding: 20px;
+    border: 1px solid black;
+}
