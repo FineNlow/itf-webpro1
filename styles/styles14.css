@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../assets/flowers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: snow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.back-btn a:hover{
+    color: blue;
+}
+
+.avatar-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 183px;
+    height: 183px;
+    background-image: url('https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/454006505_1513468219544675_5651474389092027132_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=vUaf8QpODWIQ7kNvgEQcVQa&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=ApNv5W_npVEEVbN9F1gMBxn&oh=00_AYCVeZEZuLjPN8F_hwIg6SZdMq1FdI4moQqoFoLT7M1axA&oe=6712B422');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+.notification {
+    position: relative;
+    color: white;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    bottom: -14vh;
+    right: -13vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.username:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: blue;
+}
+
+.add-btn, .export-btn {
+    background-color: #f5f5f5;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f5f5f5;
+}
